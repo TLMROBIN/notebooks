@@ -3,7 +3,6 @@ from astropy.io import fits
 from astropy import units as u
 from astropy.coordinates import SkyCoord
 from astropy.table import Table
-
 import numpy as np
 
 hdulist = fits.open('catwithdis.fit')
